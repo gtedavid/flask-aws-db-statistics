@@ -32,34 +32,35 @@ If you use it in any project, hand-in lab, etc, please credit the work done by o
 
 ### Installation and use
 
-We are using here AWS Free Tier. We already created an Elastic Beanstalk environnement running under Python 3.8 running on 64bit Amazon Linux 2/3.4.1.
-You will need to ahve Python 3.X installed, note that here we used 3.11.
-I may add a category to the README about the AWS setup of the dataabase and Elastic Beanstalk, this may be in progress post deadline of the hand in of this lab.
+We are using here AWS Free Tier. We already created an Elastic Beanstalk environnement running under Python 3.8 running on 64bit Amazon Linux 2/3.4.1.<br />
+You will need to ahve Python 3.X installed, note that here we used 3.11. <br />
+I may add a category to the README about the AWS setup of the dataabase and Elastic Beanstalk, this may be in progress post deadline of the hand in of this lab.<br />
 
-_Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061) [en](https://www.cve.org/CVERecord?id=CVE-2022-45061)._
+_Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061) [en](https://www.cve.org/CVERecord?id=CVE-2022-45061)._<br />
 
 1. How to set up the working environement on your computer
 
  GENERAL NOTICE : for the import to work properly, all packages had to be installed before on the main pc.
   1. Windows
-  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want.
-  Then to activate the virtual environment `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.
-Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.
-  For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).
+  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want. <br />
+  Then to activate the virtual environment `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
+Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. <br />
+  For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).<br />
   
   
   
   2. Mac Apple *
-  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. 
-  Note that you can call it whatever you want.
-  Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.
-  Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. \n
-  For this exercise, please install the above libraries as they are required and if not installed, the code may not work.
+  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. <br />
+  Note that you can call it whatever you want.<br />
+  Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
+  Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.  <br />
+  For this exercise, please install the above libraries as they are required and if not installed, the code may not work.  <br />
   If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961).
   
+* N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
   
 2. AWS Setup
 
   
   
-* N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
+
