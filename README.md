@@ -10,6 +10,7 @@
    1. This python code was developped with the help of a few websites for a Lab.
 Those sites are mentioned in the code.
 - _Sites to come, the sources weren't taken while researching contrarily to lab 1 due to a large amount of testing of several sources_
+- For AWS db connection : this [source was used](https://akashtikkiwal.medium.com/deploying-flask-web-application-integrated-with-mysql-database-server-running-on-aws-d9ce560add89)
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
 
