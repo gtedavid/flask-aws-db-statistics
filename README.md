@@ -39,11 +39,12 @@ I may add a category to the README about the AWS setup of the dataabase and Elas
 _Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061) [en](https://www.cve.org/CVERecord?id=CVE-2022-45061)._
 
 1. How to set up the working environement on your computer
+ GENERAL NOTICE : for the import to work properly, all packages had to be installed before on the main pc.
   1. Windows
   Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want.
   Then to activate the virtual environment `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.
   Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.
-  For this exercise, please install the above libraries as they are required and if not installed, the code may not work.
+  For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).
   
   
   
@@ -52,7 +53,7 @@ _Please note that there has been a vulnerabilty found on all Python 3.X versions
   Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.
   Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work.
-  If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961)
+  If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961).
   
   
 2. AWS Setup
