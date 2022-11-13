@@ -57,7 +57,7 @@ Your command prompt/terminal is now in the python environement `env`. Type now `
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work.  <br />
   If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961).
   
-* N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
+`*` N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
   
 2. AWS Setup
 
