@@ -50,9 +50,13 @@ Your command prompt/terminal is now in the python environement `env`. Type now `
   
   
   2. Mac Apple *
-  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want.
-  Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.
-  Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.
+  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. 
+Note that you can call it whatever you want.
+  
+Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.
+  
+Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`.
+
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work.
   If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961).
   
