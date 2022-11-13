@@ -1,5 +1,0 @@
-# You need to repalce the value in '' with your DB and host info in order for the program to work
-mysql_host: 'Enter your host here'
-mysql_user: 'Enter your database user'  # enter db user
-mysql_password: 'database password' # enter db pass
-mysql_db: 'Enter the name of the database'  # enter db name
