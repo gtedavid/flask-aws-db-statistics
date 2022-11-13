@@ -41,7 +41,7 @@ _Please note that there has been a vulnerabilty found on all Python 3.X versions
 1. How to set up the working environement on your computer
 
  GENERAL NOTICE : for the import to work properly, all packages had to be installed before on the main pc.
-  1. Windows
+  1. Windows <br />
   Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want. <br />
   Then to activate the virtual environment `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
 Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. <br />
@@ -49,7 +49,7 @@ Your command prompt/terminal is now in the python environement `env`. Type now `
   
   
   
-  2. Mac Apple *
+  2. Mac Apple * <br />
   Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. <br />
   Note that you can call it whatever you want.<br />
   Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
