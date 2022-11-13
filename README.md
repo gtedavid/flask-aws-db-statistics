@@ -36,7 +36,7 @@ We are using here AWS Free Tier. We already created an Elastic Beanstalk environ
 You will need to ahve Python 3.X installed, note that here we used 3.11.
 I may add a category to the README about the AWS setup of the dataabase and Elastic Beanstalk, this may be in progress post deadline of the hand in of this lab.
 
-_Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061)._
+_Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061) [en](https://www.cve.org/CVERecord?id=CVE-2022-45061)._
 
 1. How to set up the working environement on your computer
   1. Windows
