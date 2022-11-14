@@ -43,14 +43,14 @@ _Please note that there has been a vulnerabilty found on all Python 3.X versions
 
  GENERAL NOTICE : for the import to work properly, all packages had to be installed before on the main pc.
   1. Windows <br />
-  Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. Note that you can call it whatever you want. <br />
-  Then to activate the virtual environment `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
+  Open a command prompt from the folder you want your project to be. Type ¹`pip install virtualenv`, then type ¹`virtualenv env`. Note that you can call it whatever you want. <br />
+    For the first activation, `env\Scripts\activate.bat` is needed, the next times you'll be able to do ativate the virtual environment with `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
 Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. <br />
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).<br />
   
+  ¹Please note that : `C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_xxxxxxxxxxxxx\python.exe -m ` may need to be used previously if you are using a Python version installed from the Windows Store.
   
-  
-  2. Mac Apple * <br />
+  2. Mac Apple ² <br />
   Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. <br />
   Note that you can call it whatever you want.<br />
   Then to activate the virtual environment `source env/bin/activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
@@ -58,7 +58,7 @@ Your command prompt/terminal is now in the python environement `env`. Type now `
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work.  <br />
   If you have [issues with installing the yaml package on Mac](https://stackoverflow.com/questions/14261614/how-do-i-install-the-yaml-package-for-python/21317961#21317961).
   
-`*` N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
+  ² N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
   
 2. AWS Setup
 
