@@ -48,7 +48,9 @@ _Please note that there has been a vulnerabilty found on all Python 3.X versions
 Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. <br />
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).<br />
   
-  ¹Please note that : `C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_xxxxxxxxxxxxx\python.exe -m ` may need to be used previously if you are using a Python version installed from the Windows Store.
+  ¹Please note that : `C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_xxxxxxxxxxxxx\python.exe -m ` may need to be used previously if you are using a Python version installed from the Windows Store. <br />
+  Please not that I haven't had time to figure out fully how the start actually works, due to my laptop's configuration. <br />
+  It may vary depending on the source and which python.exe you are using, whether it be global or the one installed locally in the folder after installation of the virtual environment.
   
   2. Mac Apple ² <br />
   Open a command prompt from the folder you want your project to be. Type `pip install virtualenv`, then type `virtualenv env`. <br />
