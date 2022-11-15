@@ -131,3 +131,5 @@ dmypy.json
 #Files to be ignored if file is placed in repo from original working file
 /Restful/db.yaml
 /Restful/db.yml
+/functionnal/application/db.yaml
+/nonfunctionnal/application/db.yaml

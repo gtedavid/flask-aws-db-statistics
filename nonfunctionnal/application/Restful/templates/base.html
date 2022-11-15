@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    {% block head %}
+    {% if title %}
+    <title> {% block title %}{% endblock %} </title>
+    {% endif %}
+    {% endblock %}
+</head>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
+<body>    
+    <div id="notice" action="/" method="POST">{% block notice %} {%endblock %}</div>
+    <div id="tables_cleaned" action="/" method="POST">
+        {% for table_cleaned in tables_cleaned %}
+        {{titles_cleaned[loop.index]}}
+        {{ table_cleaned|safe }}
+        {% endfor %}
+    </div>
+    <div id="tables_airport" action="/" method="POST">
+        {% for table_airport in tables_airport %}
+        {{titles_airport[loop.index]}}
+        {{ table_airport|safe }}
+        {% endfor %}
+    </div>
+    <div id="tables_month" action="/" method="POST">
+        {% for table_month in tables_month %}
+        {{titles_month[loop.index]}}
+        {{ table_month|safe }}
+        {% endfor %}
+    </div>
+    <div id="years">
+        <form action="/" method="POST">
+            <label for="year">Year:</label>
+            <select name="year" id="year">
+                {% for year in years %}
+                <option value="{{year}}">{{year}}</option>
+                {% endfor %}
+            </select>
+            <input ng-disabled="loading" type="submit" value="Submit">
+          </form>
+    </div>
+</body>
+
+</html>

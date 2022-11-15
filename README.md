@@ -15,6 +15,7 @@ Those sites are mentioned in the code.
   [Sources for the insert](https://akashtikkiwal.medium.com/deploying-flask-web-application-integrated-with-mysql-database-server-running-on-aws-d9ce560add89)
 - For the connection to the database [1](https://dev.to/chrisgreening/connecting-to-a-relational-database-using-sqlalchemy-and-python-1619)
 - For AWS db connection : this [source was used](https://akashtikkiwal.medium.com/deploying-flask-web-application-integrated-with-mysql-database-server-running-on-aws-d9ce560add89)
+https://stackoverflow.com/questions/49628274/unable-to-get-value-selected-in-python-from-a-dropdown-using-flask
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
 

@@ -1,0 +1,8 @@
+flask
+numpy
+pathlib
+pandas
+requests
+pyyaml
+pymysql
+sqlalchemy

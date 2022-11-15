@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block body %}
+{% block info %}
+    <p class="important">This is a very important message.</p>
+{% endblock %}
+
+{% block notice %}
+{{ super() }}
+{% endblock %}
+
+{% block tables_cleaned %}
+{{ super() }}
+{% endblock %}
+{% block tables_airport %}
+{{ super() }}
+{% endblock %}
+
+{% block years %}
+{{super()}}
+{%endblock %}
+{% endblock %}
