@@ -198,4 +198,4 @@ def index():
         return render_template('index.html', years=pd1_list_year, notice=notice)
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    application.run() #debug=True can be added for debug purposes

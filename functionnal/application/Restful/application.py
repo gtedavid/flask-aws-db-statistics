@@ -51,4 +51,4 @@ def index():
     return render_template('index.html', tables_cleaned=[pd1.to_html(classes='data', header="true")], titles_cleaned=pd1.columns.values, notice=notice, types_cleaned=pd1.dtypes, tables_month=[pd1_month.to_html(classes='data', header="true")], titles_month=pd1_month.columns.values, types_month=pd1_month.dtypes, tables_airport=[pd1_airport.to_html(classes='data', header="true")], titles_airport=pd1_airport.columns.values, types_airport=pd1_airport.dtypes, years=pd1_list_year)
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    application.run() #debug=True can be added for debugging
