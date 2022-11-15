@@ -68,7 +68,8 @@ Your command prompt/terminal is now in the python environement `env`. Type now `
   ² N.B. This was taken by a helping paper, commands may vary slightly or extra steps may be needed.
   
 2. AWS Setup
+  This [tutorial](https://dev.to/chrisgreening/connecting-to-a-relational-database-using-sqlalchemy-and-python-1619) can be followed for some help putting in place the environment.
+  
+  You will just to have to upload as a zip file one of the folders `application`.
 
-  
-  
 
