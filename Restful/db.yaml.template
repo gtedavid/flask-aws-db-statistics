@@ -1,6 +1,7 @@
 # You need to repalce the value in '' with your DB and host info in order for the program to work
-# You will need to rename this db.yml
+# You will need to rename this db.yaml / db.yml !! The extension may need to be modified in other files if you modify it
 mysql_host: 'Enter your host here'
+mysql_port: 'Enter the port used by the database'
 mysql_user: 'Enter your database user'  # enter db user
 mysql_password: 'database password' # enter db pass
 mysql_db: 'Enter the name of the database'  # enter db name

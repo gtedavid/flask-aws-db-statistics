@@ -10,6 +10,10 @@
    1. This python code was developped with the help of a few websites for a Lab.
 Those sites are mentioned in the code.
 - _Sites to come, the sources weren't taken while researching contrarily to lab 1 due to a large amount of testing of several sources_
+- Line 41 for splitting dataframes [1](https://www.geeksforgeeks.org/how-to-drop-rows-that-contain-a-specific-string-in-pandas/) [2](https://www.geeksforgeeks.org/split-dataframe-in-pandas-based-on-values-in-multiple-columns/)
+- Lines 161 Sources for the .execute() method: [1](https://www.w3schools.com/python/python_mysql_insert.asp) [2](https:// www.w3schools.com/python/python_mysql_getstarted.asp) <br />
+  [Sources for the insert](https://akashtikkiwal.medium.com/deploying-flask-web-application-integrated-with-mysql-database-server-running-on-aws-d9ce560add89)
+- For the connection to the database [1](https://dev.to/chrisgreening/connecting-to-a-relational-database-using-sqlalchemy-and-python-1619)
 - For AWS db connection : this [source was used](https://akashtikkiwal.medium.com/deploying-flask-web-application-integrated-with-mysql-database-server-running-on-aws-d9ce560add89)
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
