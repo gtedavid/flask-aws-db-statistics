@@ -34,6 +34,7 @@ If you use it in any project, hand-in lab, etc, please credit the work done by o
 - pandas
 - matplotlib *to be confirmed*
 
+TAM06 was used for the data from https://data.cso.ie/.
 ## About the code
 
 ### Installation and use
