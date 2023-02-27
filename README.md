@@ -40,7 +40,7 @@ TAM06 was used for the data from https://data.cso.ie/.
 ### Installation and use
 
 We are using here AWS Free Tier. We already created an Elastic Beanstalk environnement running under Python 3.8 running on 64bit Amazon Linux 2/3.4.1.<br />
-You will need to ahve Python 3.X installed, note that here we used 3.11. <br />
+You will need to have Python 3.X installed, note that here we used 3.11. <br />
 I may add a category to the README about the AWS setup of the database and Elastic Beanstalk, this may be in progress post deadline of the hand in of this lab.<br />
 
 _Please note that there has been a vulnerabilty found on all Python 3.X versions allowing to cause a deny of service remotly [fr](https://www.cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-1017/](en)[https://www.cve.org/CVERecord?id=CVE-2022-45061) [en](https://www.cve.org/CVERecord?id=CVE-2022-45061)._<br />
