@@ -50,7 +50,7 @@ _Please note that there has been a vulnerabilty found on all Python 3.X versions
  GENERAL NOTICE : for the import to work properly, all packages had to be installed before on the main pc.
   1. Windows <br />
   Open a command prompt from the folder you want your project to be. Type ¹`pip install virtualenv`, then type ¹`virtualenv env`. Note that you can call it whatever you want. <br />
-    For the first activation, `env\Scripts\activate.bat` is needed, the next times you'll be able to do ativate the virtual environment with `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
+    For the first activation, `env\Scripts\activate.bat` is needed, the next times you'll be able to do activate the virtual environment with `source env\bin\activate`, if you typed in something different from `env`be sure to replace that with how you called it.<br />
 Your command prompt/terminal is now in the python environement `env`. Type now `pip install flask`. <br />
   For this exercise, please install the above libraries as they are required and if not installed, the code may not work. If you have [issues with installing the yaml package on Windows](https://www.geeksforgeeks.org/how-to-install-pyyaml-on-windows/).<br />
   
